@@ -142,6 +142,8 @@ font-size: 24px;
 line-height: 100%;
 letter-spacing: 0%;
 text-align: center;
+color: #FFFFFF;
+
 
 }
 
@@ -159,6 +161,7 @@ font-style: Regular;
 font-size: 18px;
 line-height: 100%;
 letter-spacing: 0%;
+padding-right: 35px;
 text-align: right;
 color: #FAFAFA;
 }

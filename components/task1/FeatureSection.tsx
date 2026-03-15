@@ -35,7 +35,7 @@ export default function FeatureSection() {
   />
 
   
-  <FeatureCard
+    <div>  <FeatureCard
     title={features[1].title}
     subtitle={features[1].subtitle}
     description={features[1].description}
@@ -43,7 +43,7 @@ export default function FeatureSection() {
     image={features[1].image}
     reverse
   />
-
+</div>
   
   <FeatureCard
     title={features[2].title}
@@ -53,14 +53,14 @@ export default function FeatureSection() {
     image={features[2].image}
   />
 
-  <FeatureCard
+<div>  <FeatureCard
     title={features[3].title}
     subtitle={features[3].subtitle}
     description={features[3].description}
     color={features[3].color}
     image={features[3].image}
     reverse
-  />
+  /></div>
 
 </div>
 
