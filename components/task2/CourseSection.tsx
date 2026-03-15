@@ -5,7 +5,7 @@ import "./task2.css"
 export default function CourseSection() {
   return (
     <section className="course-section" >
-<div className="bg-red-300">hello</div>
+
       <div className="course-header">
 
         <div className="course-notebox">
