@@ -4,7 +4,7 @@ interface Props {
   description: string
   color: string
   image: string
-  reverse?: boolean
+  index: number
 }
 
 export default function FeatureCard({
@@ -13,24 +13,18 @@ export default function FeatureCard({
   description,
   color,
   image,
-  reverse
+  index
 }: Props) {
   return (
     <div
       className="feature-card"
-      style={{
-        backgroundColor: color,
-        flexDirection: reverse ? "row-reverse" : "row"
-      }}
+      style={{ backgroundColor: color }}
     >
-      <div>
-        <img
-  src={image}
-  alt={title}
-  className={reverse ? "feature-img-right" : "feature-img"}
-/>
-
-      </div>
+      <img
+        src={image}
+        alt={title}
+        className={`feature-img feature-img-${index}`}
+      />
 
       <div className="feature-textbox">
         <div className="Feature-text1">

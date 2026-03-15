@@ -2,11 +2,13 @@
 
 import FeatureSection from "@/components/task1/FeatureSection"
 import Link from "next/link"
+import CourseSection from "@/components/task2/CourseSection"
 
 export default function Home() {
   return (
     <main style={{ padding: "40px" }}>
       <FeatureSection />
+      <CourseSection />
 
       <div style={{ textAlign: "center", marginTop: "40px" }}>
         <Link
@@ -19,6 +21,7 @@ export default function Home() {
             textDecoration: "none"
           }}
         >
+          
           Go to User Dashboard
         </Link>
       </div>
