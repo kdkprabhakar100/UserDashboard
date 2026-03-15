@@ -56,6 +56,17 @@ height: 38px;
 opacity: 1;
 }
 
+.feature-title span{
+  font-family: Nohemi;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+line-height: 120%;
+letter-spacing: 0%;
+color: #1DA077;
+
+}
+
 .feature-title h1{
 font-family: Nohemi;
 font-weight: 700;
@@ -154,14 +165,14 @@ text-align: right;
 color: #FAFAFA;
 }
 
-/* LEFT SIDE IMAGE (Grid 1 & 3) */
+
 
 .feature-img{
 position:absolute;
 }
 
 
-/* Default (image on LEFT cards 1 & 3) */
+
 
 .features-grid .feature-card:nth-child(1) .feature-textbox,
 .features-grid .feature-card:nth-child(3) .feature-textbox{
@@ -169,7 +180,7 @@ position:absolute;
 }
 
 
-/* Image on RIGHT cards 2 & 4 */
+
 
 .features-grid .feature-card:nth-child(2) .feature-textbox,
 .features-grid .feature-card:nth-child(4) .feature-textbox{
@@ -178,15 +189,7 @@ position:absolute;
 }
 
 
-/* move image to right side automatically */
 
-/* .features-grid .feature-card:nth-child(2) .feature-img,
-.features-grid .feature-card:nth-child(4) .feature-img{
-  left:380px;
-  top:14px;
-  width:180.3535614013672px;
-  height:367px;
-} */
 
 .feature-img-0{
 width: 257.3858337402344px;

@@ -19,7 +19,7 @@ export default function FeatureSection() {
           </div>
 
           <div className="feature-title">
-            <h1>Step In. Skill Up. Stand Out. 🚀</h1>
+            <h1><span>Step</span> In. <span>Skill</span> Up. <span>Stand</span> Out. 🚀</h1>
           </div>
 
         </div>
