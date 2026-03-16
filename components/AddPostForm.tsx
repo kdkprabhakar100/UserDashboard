@@ -23,10 +23,15 @@ export default function AddPostForm({ onAddPost }: Props) {
 
     const result = postSchema.safeParse({ title, body })
 
-    if (!result.success) {
-      setError(result.error.issues[0].message)
-      return
-    }
+if (!result.success) {
+  setError(result.error.issues[0].message)
+
+  setTimeout(() => {
+    setError("")
+  }, 3000)
+
+  return
+}
 
     onAddPost({ title, body })
 
