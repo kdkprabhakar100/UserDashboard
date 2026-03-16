@@ -100,7 +100,7 @@ color: #1DA077;
 
 }
 
-/* GRID */
+
 .course-gridbox{
 width: 1216px;
 height: 461px;
@@ -117,7 +117,6 @@ gap:30px;
 align-items:stretch;
 }
 
-/* BIG CARD */
 
 .course-card{
 background:#C33241;
@@ -224,7 +223,7 @@ line-height: 100%;
 letter-spacing: 0%;
 color: #F9EBEC;
 }
-/* SMALL CARDS */
+
 
 .stat-card{
     position: relative;
@@ -251,7 +250,7 @@ gap: 24px;
 opacity: 1;
 }
 
-/* TEXT */
+
 
 .stat-text{
      position: absolute;
@@ -313,10 +312,7 @@ padding-top: 100px;
 
 
 }
-/* =========================
-   TABLET & LAPTOP (769–1024)
-   Keep original design
-   ========================= */
+
 
 @media (min-width:769px) and (max-width:1024px){
 
@@ -349,12 +345,12 @@ grid-template-columns:2fr 1fr 1fr;
 
 @media (min-width:481px) and (max-width:768px){
 
-/* remove note */
+
 .course-notebox{
 display:none;
 }
 
-/* flexible section */
+
 .course-section{
 width:100%;
 padding:30px 20px;
@@ -374,7 +370,7 @@ width:100%;
 padding-top:30px;
 }
 
-/* grid layout */
+
 
 .course-grid{
 grid-template-columns:1fr 1fr;
@@ -382,7 +378,7 @@ gap:24px;
 justify-items:center;
 }
 
-/* big card on top */
+
 
 .course-card{
 grid-column:1 / span 2;
@@ -392,7 +388,7 @@ height:auto;
 padding:35px;
 }
 
-/* fix icons */
+
 
 .course-icons{
 width:100%;
@@ -402,15 +398,13 @@ flex-wrap:wrap;
 gap:18px;
 }
 
-/* fix top text */
-
 .course-top{
 padding-left:0;
 justify-content:center;
 padding-top: 10px;
 }
 
-/* bottom layout */
+
 
 .course-bottom{
 padding-left:0;
@@ -426,7 +420,7 @@ font-size:110px;
 width:auto;
 }
 
-/* stat cards */
+
 
 .stat-card{
 width:100%;
@@ -439,7 +433,7 @@ align-items:center;
 justify-content:center;
 }
 
-/* fix rotated text */
+
 
 .stat-text{
 transform:none;
