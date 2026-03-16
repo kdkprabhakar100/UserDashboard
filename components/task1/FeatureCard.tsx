@@ -1,32 +1,25 @@
 interface Props {
+  index: number
   title: string
   subtitle: string
   description: string
   color: string
   image: string
-  index: number
 }
 
 export default function FeatureCard({
+  index,
   title,
   subtitle,
   description,
   color,
-  image,
-  index
+  image
 }: Props) {
   return (
-    <div
-      className="feature-card"
-      style={{ backgroundColor: color }}
-    >
-      <img
-        src={image}
-        alt={title}
-        className={`feature-img feature-img-${index}`}
-      />
+    <div className="feature-card" style={{ background: color }}>
 
       <div className="feature-textbox">
+
         <div className="Feature-text1">
           <div className="Feature-text1box">
             <h3>{title}</h3>
@@ -40,7 +33,15 @@ export default function FeatureCard({
         <div className="Feature-DescBOX">
           <p>{description}</p>
         </div>
+
       </div>
+
+      <img
+        src={image}
+        alt={title}
+        className={`feature-img feature-img-${index}`}
+      />
+
     </div>
   )
 }

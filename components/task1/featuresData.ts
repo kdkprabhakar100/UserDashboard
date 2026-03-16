@@ -16,7 +16,7 @@ export const features = [
     image: "/2.png"
   },
   {
-    title: "",
+    title: "Get Mentored & Supported",
     subtitle: "You're not learning alone.",
     description:
       "Stuck or need feedback? SkillShikshya’s community of mentors and learners has your back with live support, interactive discussions, and expert insights. You’re never on your own.",
@@ -24,7 +24,7 @@ export const features = [
     image: "/3.png"
   },
   {
-    title: "",
+    title: "Achieve & Showcase",
     subtitle: "Build your portfolio, get job-ready.",
     description:
       "Your journey ends with achievement. Each completed project builds a portfolio showcasing your skills and job readiness, bringing you closer to that dream job, promotion, or your own venture.",
