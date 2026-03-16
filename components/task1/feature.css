@@ -1,13 +1,10 @@
-/* ========================= */
-/* DESKTOP (YOUR ORIGINAL) */
-/* ========================= */
 
 .feature-section{
 width:1440px;
 height:1042px;
 scale:0deg;
 opacity:1;
-background:var(--Base-Base-White,#FAFAFA);
+
 }
 
 .feature-note{
@@ -222,13 +219,9 @@ margin-left:-40px;
 
 @media (max-width:480px){
 
-/* hide note */
-
 .feature-note{
 display:none;
 }
-
-/* flexible section */
 
 .feature-section{
 width:100%;
@@ -242,14 +235,11 @@ height:auto;
 padding:0;
 }
 
-/* single column */
-
 .features-grid{
 grid-template-columns:1fr;
 gap:30px;
 }
 
-/* mobile card */
 
 .feature-card{
 width:100%;
@@ -261,8 +251,6 @@ text-align:center;
 border-radius:22px;
 }
 
-/* reset desktop offsets */
-
 .feature-textbox{
 width:100%;
 margin-left:0 !important;
@@ -271,8 +259,6 @@ padding:0;
 gap:18px;
 align-items:center;
 }
-
-/* mobile typography */
 
 .Feature-text1box h3{
 font-size:24px;
@@ -290,8 +276,6 @@ line-height:150%;
 text-align:center !important;
 }
 
-/* center image */
-
 .feature-img{
 position:relative;
 top:auto;
@@ -305,7 +289,6 @@ margin-top:15px;
 }
 @media (min-width:481px) and (max-width:768px){
 
-/* hide note */
 .feature-note{
 display:none;
 }
@@ -322,15 +305,12 @@ height:auto;
 padding:0;
 }
 
-/* single large card */
-
 .features-grid{
 grid-template-columns:1fr;
 gap:45px;
 justify-items:center;
 }
 
-/* bigger cards */
 
 .feature-card{
 width:90%;
@@ -343,8 +323,6 @@ justify-content:space-between;
 border-radius:26px;
 }
 
-/* wider text area */
-
 .feature-textbox{
 width:68%;
 margin-left:0 !important;
@@ -353,7 +331,6 @@ padding:0;
 gap:24px;
 }
 
-/* larger typography */
 
 .Feature-text1box h3{
 font-size:34px;
@@ -367,8 +344,6 @@ font-size:24px;
 font-size:18px;
 line-height:150%;
 }
-
-/* image size */
 
 .feature-img{
 position:relative;
@@ -395,14 +370,12 @@ height:auto;
 padding:0;
 }
 
-/* 2x2 grid */
+
 
 .features-grid{
 grid-template-columns:1fr 1fr;
 gap:0px;
 }
-
-/* Bigger cards */
 
 .feature-card{
 width:90%;
@@ -413,7 +386,6 @@ align-items:center;
 justify-content:space-between;
 }
 
-/* Reset desktop offsets */
 
 .feature-textbox{
 width:60%;
@@ -421,8 +393,6 @@ margin-left:0 !important;
 margin-right:0 !important;
 padding:0;
 }
-
-/* Better font sizes */
 
 .Feature-text1box h3{
 font-size:28px;
@@ -437,7 +407,6 @@ font-size:16px;
 line-height:140%;
 }
 
-/* Image positioning */
 
 .feature-img{
 position:relative;
