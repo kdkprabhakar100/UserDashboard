@@ -12,8 +12,10 @@ https://user-dashboard-drab-three.vercel.app/
 
 ## Features
 - Pixel-perfect Figma implementation
-- Reusable components
+- see Reusable components
 - Responsive layout
 
 ## portfolio
 https://www.khadkaprabhakar.com.np/
+
+## kdkprabhakar100@gmail.com
